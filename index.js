@@ -10,7 +10,6 @@ document.getElementById("result-guest")
 let resulthEl = document.getElementById("result-home")
 let resultgEl = document.getElementById("result-guest")
 
-
 function add1h() {
     resulth += point1
     resulthEl.textContent = resulth

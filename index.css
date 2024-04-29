@@ -28,15 +28,16 @@ body {
 }
 
 #result-home, #result-guest {
-    height: 200px;
-    width: 200px;
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 40px;
     border: 2px solid black;
     padding: 10px;
     font-family: Timer;
     color: #ffb703;
     background: #219ebc;
     font-size: 40px;
-    text-align: center;
 }
 
 #home-btns1, #home-btns2, #home-btns3, #guest-btns1, #guest-btns2, #guest-btns3 {
@@ -46,6 +47,8 @@ body {
     background: none;
     width: 35px;
     border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #home-btns1, #guest-btns1 {
@@ -60,6 +63,18 @@ body {
     background: #ff70a6;
 }
 
+#home-btns1:hover, #guest-btns1:hover {
+    background: #e3d3ac;
+}
+
+#home-btns2:hover, #guest-btns2:hover {
+    background: #b3dfbe;
+}
+
+#home-btns3:hover, #guest-btns3:hover {
+    background: #d3a3b6;
+}
+
 .container2 {
     display: block;
     text-align: center;
@@ -72,4 +87,10 @@ body {
     background: #219ebc;
     width: 100px;
     border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#new-game:hover {
+    background: #b6d0d7;   
 }
